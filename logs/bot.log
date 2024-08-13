@@ -1,0 +1,420 @@
+INFO:root:Wed Jul 31 23:51:50 2024: Bekle.
+INFO:root:Wed Jul 31 23:53:58 2024: Bekle.
+INFO:root:Wed Jul 31 23:56:22 2024: Bekle.
+INFO:root:Wed Jul 31 23:57:28 2024: Bekle.
+INFO:root:OHLCV Data:                         open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64596.3  64557.5  64557.5    0.397685
+INFO:root:Signals:                          SMA50  SMA200  signal  position
+timestamp                                               
+2024-07-31 17:00:00  66467.796     NaN       0       0.0
+2024-07-31 18:00:00  66459.452     NaN       0       0.0
+2024-07-31 19:00:00  66424.152     NaN       0       0.0
+2024-07-31 20:00:00  66367.376     NaN       0       0.0
+2024-07-31 21:00:00  66312.662     NaN       0       0.0
+INFO:root:Thu Aug  1 00:00:16 2024: Bekle.
+INFO:root:OHLCV Data:                         open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64596.3  64547.2  64547.2    1.694154
+INFO:root:Signals:                          SMA50  SMA200  signal  position
+timestamp                                               
+2024-07-31 17:00:00  66467.796     NaN       0       0.0
+2024-07-31 18:00:00  66459.452     NaN       0       0.0
+2024-07-31 19:00:00  66424.152     NaN       0       0.0
+2024-07-31 20:00:00  66367.376     NaN       0       0.0
+2024-07-31 21:00:00  66312.456     NaN       0       0.0
+INFO:root:Thu Aug  1 00:01:28 2024: Bekle.
+INFO:root:OHLCV Data:                         open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64667.1  64523.8  64667.1    7.418592
+INFO:root:Signals:                          SMA50  SMA200  signal  position
+timestamp                                               
+2024-07-31 17:00:00  66467.796     NaN       0       0.0
+2024-07-31 18:00:00  66459.452     NaN       0       0.0
+2024-07-31 19:00:00  66424.152     NaN       0       0.0
+2024-07-31 20:00:00  66367.376     NaN       0       0.0
+2024-07-31 21:00:00  66314.854     NaN       0       0.0
+INFO:root:Thu Aug  1 00:02:33 2024: Bekle.
+INFO:root:Thu Aug  1 00:02:55 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:03:05 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64700.8  64523.8  64700.8    8.533630
+INFO:root:Thu Aug  1 00:03:05 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:03:05 2024: Sinyaller üretildi: 
+                         SMA50  SMA200  signal  position
+timestamp                                               
+2024-07-31 17:00:00  66467.796     NaN       0       0.0
+2024-07-31 18:00:00  66459.452     NaN       0       0.0
+2024-07-31 19:00:00  66424.152     NaN       0       0.0
+2024-07-31 20:00:00  66367.376     NaN       0       0.0
+2024-07-31 21:00:00  66315.528     NaN       0       0.0
+INFO:root:Thu Aug  1 00:03:05 2024: Bekle.
+INFO:root:Thu Aug  1 00:03:05 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 00:04:05 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:04:14 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64747.6  64523.8  64717.3    9.747033
+INFO:root:Thu Aug  1 00:04:14 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:04:14 2024: Sinyaller üretildi: 
+                         SMA50  SMA200  signal  position
+timestamp                                               
+2024-07-31 17:00:00  66467.796     NaN       0       0.0
+2024-07-31 18:00:00  66459.452     NaN       0       0.0
+2024-07-31 19:00:00  66424.152     NaN       0       0.0
+2024-07-31 20:00:00  66367.376     NaN       0       0.0
+2024-07-31 21:00:00  66315.858     NaN       0       0.0
+INFO:root:Thu Aug  1 00:04:14 2024: Bekle.
+INFO:root:Thu Aug  1 00:04:14 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 00:08:37 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:08:43 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64791.4  64523.8  64763.1   34.039922
+INFO:root:Thu Aug  1 00:08:43 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:08:43 2024: Sinyaller üretildi: 
+                         SMA50     SMA200  signal  position
+timestamp                                                  
+2024-07-31 17:00:00  66467.796        NaN       0       0.0
+2024-07-31 18:00:00  66459.452        NaN       0       0.0
+2024-07-31 19:00:00  66424.152        NaN       0       0.0
+2024-07-31 20:00:00  66367.376        NaN       0       0.0
+2024-07-31 21:00:00  66316.774  66856.043      -1      -1.0
+INFO:root:Thu Aug  1 00:08:43 2024: Satış sinyali. Emir veriliyor.
+ERROR:root:Error placing order: kucoin Balance insufficient!
+INFO:root:Thu Aug  1 00:08:49 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 00:09:49 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:09:57 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64791.4  64523.8  64749.9   36.625573
+INFO:root:Thu Aug  1 00:09:57 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:09:57 2024: Sinyaller üretildi: 
+                         SMA50     SMA200  signal  position
+timestamp                                                  
+2024-07-31 17:00:00  66467.796        NaN       0       0.0
+2024-07-31 18:00:00  66459.452        NaN       0       0.0
+2024-07-31 19:00:00  66424.152        NaN       0       0.0
+2024-07-31 20:00:00  66367.376        NaN       0       0.0
+2024-07-31 21:00:00  66316.510  66855.977      -1      -1.0
+INFO:root:Thu Aug  1 00:09:57 2024: Satış sinyali. Emir veriliyor.
+ERROR:root:Error placing order: kucoin Balance insufficient!
+INFO:root:Thu Aug  1 00:10:04 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 00:11:04 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:11:11 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64947.9  64523.8  64928.6   46.032626
+INFO:root:Thu Aug  1 00:11:11 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:11:11 2024: Sinyaller üretildi: 
+                         SMA50      SMA200  signal  position
+timestamp                                                   
+2024-07-31 17:00:00  66467.796         NaN       0       0.0
+2024-07-31 18:00:00  66459.452         NaN       0       0.0
+2024-07-31 19:00:00  66424.152         NaN       0       0.0
+2024-07-31 20:00:00  66367.376         NaN       0       0.0
+2024-07-31 21:00:00  66320.084  66856.8705      -1      -1.0
+INFO:root:Thu Aug  1 00:11:11 2024: Satış sinyali. Emir veriliyor.
+ERROR:root:Error placing order: kucoin Balance insufficient!
+INFO:root:Thu Aug  1 00:11:17 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 00:12:01 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:12:06 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64947.9  64523.8  64930.1   47.511458
+INFO:root:Thu Aug  1 00:12:06 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:12:06 2024: Sinyaller üretildi: 
+                         SMA50     SMA200  signal  position
+timestamp                                                  
+2024-07-31 17:00:00  66467.796        NaN       0       0.0
+2024-07-31 18:00:00  66459.452        NaN       0       0.0
+2024-07-31 19:00:00  66424.152        NaN       0       0.0
+2024-07-31 20:00:00  66367.376        NaN       0       0.0
+2024-07-31 21:00:00  66320.114  66856.878      -1      -1.0
+INFO:root:Thu Aug  1 00:12:06 2024: Satış sinyali. Emir veriliyor.
+ERROR:root:Error placing order: kucoin Balance insufficient!
+INFO:root:Thu Aug  1 00:12:12 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 00:13:12 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:13:16 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64949.5  64523.8  64949.5   49.307375
+INFO:root:Thu Aug  1 00:13:16 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:13:16 2024: Sinyaller üretildi: 
+                         SMA50     SMA200  signal  position
+timestamp                                                  
+2024-07-31 17:00:00  66467.796        NaN       0       0.0
+2024-07-31 18:00:00  66459.452        NaN       0       0.0
+2024-07-31 19:00:00  66424.152        NaN       0       0.0
+2024-07-31 20:00:00  66367.376        NaN       0       0.0
+2024-07-31 21:00:00  66320.502  66856.975      -1      -1.0
+INFO:root:Thu Aug  1 00:13:16 2024: Satış sinyali. Emir veriliyor.
+ERROR:root:Error placing order: kucoin Balance insufficient!
+INFO:root:Thu Aug  1 00:13:21 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 00:14:21 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:14:27 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  64976.9  64523.8  64925.6   52.929976
+INFO:root:Thu Aug  1 00:14:27 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:14:27 2024: Sinyaller üretildi: 
+                         SMA50      SMA200  signal  position
+timestamp                                                   
+2024-07-31 17:00:00  66467.796         NaN       0       0.0
+2024-07-31 18:00:00  66459.452         NaN       0       0.0
+2024-07-31 19:00:00  66424.152         NaN       0       0.0
+2024-07-31 20:00:00  66367.376         NaN       0       0.0
+2024-07-31 21:00:00  66320.024  66856.8555      -1      -1.0
+INFO:root:Thu Aug  1 00:14:27 2024: Satış sinyali. Emir veriliyor.
+ERROR:root:Error placing order: kucoin Balance insufficient!
+INFO:root:Thu Aug  1 00:14:33 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 00:15:33 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:15:37 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  65061.8  64523.8  65050.7   57.066680
+INFO:root:Thu Aug  1 00:15:37 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:15:37 2024: Sinyaller üretildi: 
+                         SMA50     SMA200  signal  position
+timestamp                                                  
+2024-07-31 17:00:00  66467.796        NaN       0       0.0
+2024-07-31 18:00:00  66459.452        NaN       0       0.0
+2024-07-31 19:00:00  66424.152        NaN       0       0.0
+2024-07-31 20:00:00  66367.376        NaN       0       0.0
+2024-07-31 21:00:00  66322.526  66857.481      -1      -1.0
+INFO:root:Thu Aug  1 00:15:37 2024: Satış sinyali. Emir veriliyor.
+ERROR:root:Error placing order: kucoin Balance insufficient!
+INFO:root:Thu Aug  1 00:15:41 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 00:16:41 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:16:47 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  65068.5  64523.8  65068.5   59.264423
+INFO:root:Thu Aug  1 00:16:47 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:16:47 2024: Sinyaller üretildi: 
+                         SMA50    SMA200  signal  position
+timestamp                                                 
+2024-07-31 17:00:00  66467.796       NaN       0       0.0
+2024-07-31 18:00:00  66459.452       NaN       0       0.0
+2024-07-31 19:00:00  66424.152       NaN       0       0.0
+2024-07-31 20:00:00  66367.376       NaN       0       0.0
+2024-07-31 21:00:00  66322.882  66857.57      -1      -1.0
+INFO:root:Thu Aug  1 00:16:47 2024: Satış sinyali. Emir veriliyor.
+ERROR:root:Error placing order: kucoin Balance insufficient!
+INFO:root:Thu Aug  1 00:16:53 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 00:17:53 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 00:18:00 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-07-31 17:00:00  66358.0  66828.9  66301.8  66682.5   90.958393
+2024-07-31 18:00:00  66682.6  66739.8  66150.1  66524.0  166.801142
+2024-07-31 19:00:00  66526.8  66640.7  64921.2  65253.9  311.667057
+2024-07-31 20:00:00  65245.4  65419.9  64543.1  64590.4  301.344048
+2024-07-31 21:00:00  64596.3  65068.6  64523.8  65037.6   60.187845
+INFO:root:Thu Aug  1 00:18:00 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 00:18:00 2024: Sinyaller üretildi: 
+                         SMA50      SMA200  signal  position
+timestamp                                                   
+2024-07-31 17:00:00  66467.796         NaN       0       0.0
+2024-07-31 18:00:00  66459.452         NaN       0       0.0
+2024-07-31 19:00:00  66424.152         NaN       0       0.0
+2024-07-31 20:00:00  66367.376         NaN       0       0.0
+2024-07-31 21:00:00  66322.264  66857.4155      -1      -1.0
+INFO:root:Thu Aug  1 00:18:00 2024: Satış sinyali. Emir veriliyor.
+ERROR:root:Error placing order: kucoin Balance insufficient!
+INFO:root:Thu Aug  1 00:18:06 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 11:45:14 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 11:45:20 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-08-01 04:00:00  63935.8  64061.1  63604.3  63744.9   91.173072
+2024-08-01 05:00:00  63737.1  64351.9  63586.5  64303.8  181.377265
+2024-08-01 06:00:00  64303.9  64451.7  64126.8  64229.2   76.227157
+2024-08-01 07:00:00  64229.2  64488.2  64218.2  64326.6   65.481092
+2024-08-01 08:00:00  64323.5  64550.0  64304.1  64504.7   39.581688
+INFO:root:Thu Aug  1 11:45:20 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 11:45:20 2024: Sinyaller üretildi: 
+                         SMA50     SMA200  ...  buy_signal  sell_signal
+timestamp                                  ...                         
+2024-08-01 04:00:00  65963.444        NaN  ...       False        False
+2024-08-01 05:00:00  65917.260        NaN  ...       False        False
+2024-08-01 06:00:00  65865.592        NaN  ...       False        False
+2024-08-01 07:00:00  65822.478        NaN  ...       False        False
+2024-08-01 08:00:00  65777.078  66763.332  ...       False        False
+
+[5 rows x 10 columns]
+INFO:root:Thu Aug  1 11:45:20 2024: Bekle.
+INFO:root:Thu Aug  1 11:45:20 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 12:09:18 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 12:09:23 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-08-01 05:00:00  63737.1  64351.9  63586.5  64303.8  181.377265
+2024-08-01 06:00:00  64303.9  64451.7  64126.8  64229.2   76.227157
+2024-08-01 07:00:00  64229.2  64488.2  64218.2  64326.6   65.481092
+2024-08-01 08:00:00  64323.5  64550.0  64304.1  64510.1   51.104127
+2024-08-01 09:00:00  64510.1  64556.3  64477.3  64550.8    8.292557
+INFO:root:Thu Aug  1 12:09:23 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 12:09:23 2024: Sinyaller üretildi: 
+                         SMA50     SMA200  ...  buy_signal  sell_signal
+timestamp                                  ...                         
+2024-08-01 05:00:00  65917.260        NaN  ...       False        False
+2024-08-01 06:00:00  65865.592        NaN  ...       False        False
+2024-08-01 07:00:00  65822.478        NaN  ...       False        False
+2024-08-01 08:00:00  65777.186        NaN  ...       False        False
+2024-08-01 09:00:00  65729.070  66757.762  ...       False        False
+
+[5 rows x 10 columns]
+INFO:root:Thu Aug  1 12:09:23 2024: Bekle.
+INFO:root:Thu Aug  1 12:09:23 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 13:41:04 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 13:53:17 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 13:58:34 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 14:00:35 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 14:03:26 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 14:03:31 2024: Veriler çekildi: 
+                        open     high      low    close     volume
+timestamp                                                         
+2024-08-01 07:00:00  64229.2  64488.2  64218.2  64326.6  65.481092
+2024-08-01 08:00:00  64323.5  64550.0  64304.1  64510.1  51.104127
+2024-08-01 09:00:00  64510.1  64711.7  64459.0  64462.0  54.802876
+2024-08-01 10:00:00  64462.1  64606.7  64321.2  64580.3  44.485286
+2024-08-01 11:00:00  64579.6  64605.1  64540.2  64560.2   4.346842
+INFO:root:Thu Aug  1 14:03:31 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 14:03:31 2024: Sinyaller üretildi: 
+                         SMA50      SMA200  ...  buy_signal  sell_signal
+timestamp                                   ...                         
+2024-08-01 07:00:00  65822.478         NaN  ...       False        False
+2024-08-01 08:00:00  65777.186         NaN  ...       False        False
+2024-08-01 09:00:00  65727.294         NaN  ...       False        False
+2024-08-01 10:00:00  65683.528         NaN  ...       False        False
+2024-08-01 11:00:00  65642.598  66743.4305  ...       False        False
+
+[5 rows x 10 columns]
+INFO:root:Thu Aug  1 14:03:31 2024: Bekle.
+INFO:root:Thu Aug  1 14:03:31 2024: 1 dakika bekliyor.
+INFO:root:Thu Aug  1 17:23:46 2024: Model eğitiliyor.
+INFO:root:Thu Aug  1 17:23:54 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 17:23:58 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-08-01 10:00:00  64462.1  64606.7  64321.2  64580.3   44.485286
+2024-08-01 11:00:00  64579.6  64688.5  64460.5  64675.0   60.254274
+2024-08-01 12:00:00  64675.1  64914.3  64631.2  64882.4   74.945420
+2024-08-01 13:00:00  64882.4  64953.6  64466.6  64762.1  101.584988
+2024-08-01 14:00:00  64753.3  64775.8  64336.6  64378.0   60.095776
+INFO:root:Thu Aug  1 17:23:58 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 17:23:58 2024: Sinyaller üretildi: 
+                         SMA50     SMA200  ...  buy_signal  sell_signal
+timestamp                                  ...                         
+2024-08-01 10:00:00  65683.528        NaN  ...       False        False
+2024-08-01 11:00:00  65644.894        NaN  ...       False        False
+2024-08-01 12:00:00  65610.934        NaN  ...       False        False
+2024-08-01 13:00:00  65574.662        NaN  ...       False        False
+2024-08-01 14:00:00  65528.822  66726.287  ...       False        False
+
+[5 rows x 10 columns]
+INFO:root:Thu Aug  1 17:23:58 2024: Modelin tahmin ettiği aksiyon: 1
+INFO:root:Thu Aug  1 17:23:58 2024: Alış sinyali. Emir veriliyor.
+INFO:root:Thu Aug  1 17:25:32 2024: Model eğitiliyor.
+INFO:root:Thu Aug  1 17:25:39 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 17:25:45 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-08-01 10:00:00  64462.1  64606.7  64321.2  64580.3   44.485286
+2024-08-01 11:00:00  64579.6  64688.5  64460.5  64675.0   60.254274
+2024-08-01 12:00:00  64675.1  64914.3  64631.2  64882.4   74.945420
+2024-08-01 13:00:00  64882.4  64953.6  64466.6  64762.1  101.584988
+2024-08-01 14:00:00  64753.3  64775.8  64336.6  64438.2   65.045713
+INFO:root:Thu Aug  1 17:25:45 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 17:25:45 2024: Sinyaller üretildi: 
+                         SMA50     SMA200  ...  buy_signal  sell_signal
+timestamp                                  ...                         
+2024-08-01 10:00:00  65683.528        NaN  ...       False        False
+2024-08-01 11:00:00  65644.894        NaN  ...       False        False
+2024-08-01 12:00:00  65610.934        NaN  ...       False        False
+2024-08-01 13:00:00  65574.662        NaN  ...       False        False
+2024-08-01 14:00:00  65530.026  66726.588  ...       False        False
+
+[5 rows x 10 columns]
+INFO:root:Thu Aug  1 17:25:45 2024: Modelin tahmin ettiği aksiyon: 0
+INFO:root:Thu Aug  1 17:25:45 2024: Bekle.
+INFO:root:Thu Aug  1 17:25:45 2024: Açık pozisyonlar kontrol ediliyor.
+INFO:root:Thu Aug  1 17:27:28 2024: Model eğitiliyor.
+INFO:root:Thu Aug  1 17:27:37 2024: Verileri çekmeye başlıyor.
+INFO:root:Thu Aug  1 17:27:41 2024: Veriler çekildi: 
+                        open     high      low    close      volume
+timestamp                                                          
+2024-08-01 10:00:00  64462.1  64606.7  64321.2  64580.3   44.485286
+2024-08-01 11:00:00  64579.6  64688.5  64460.5  64675.0   60.254274
+2024-08-01 12:00:00  64675.1  64914.3  64631.2  64882.4   74.945420
+2024-08-01 13:00:00  64882.4  64953.6  64466.6  64762.1  101.584988
+2024-08-01 14:00:00  64753.3  64775.8  64336.6  64404.2   67.928175
+INFO:root:Thu Aug  1 17:27:41 2024: Sinyaller üretiliyor.
+INFO:root:Thu Aug  1 17:27:41 2024: Sinyaller üretildi: 
+                         SMA50     SMA200  ...  buy_signal  sell_signal
+timestamp                                  ...                         
+2024-08-01 10:00:00  65683.528        NaN  ...       False        False
+2024-08-01 11:00:00  65644.894        NaN  ...       False        False
+2024-08-01 12:00:00  65610.934        NaN  ...       False        False
+2024-08-01 13:00:00  65574.662        NaN  ...       False        False
+2024-08-01 14:00:00  65529.346  66726.418  ...       False        False
+
+[5 rows x 10 columns]
+INFO:root:Thu Aug  1 17:27:41 2024: Modelin tahmin ettiği aksiyon: 2
+INFO:root:Thu Aug  1 17:27:41 2024: Bekle.
+INFO:root:Thu Aug  1 17:27:41 2024: Açık pozisyonlar kontrol ediliyor.
+INFO:root:Thu Aug  1 17:27:46 2024: 1 dakika bekliyor.

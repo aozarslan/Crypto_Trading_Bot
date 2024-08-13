@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Trading Bot</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+</head>
+<body class="container mt-4">
+    <h1 class="mb-4">Crypto Trading Bot Orders</h1>
+    <h2 class="mb-4">Current Balance: $<span id="current-balance">{{ current_balance }}</span></h2>
+    <div id="balance-graph" class="mb-4">
+        {% if graphJSON %}
+        <script>
+            var graphs = {{ graphJSON | safe }};
+            Plotly.newPlot('balance-graph', graphs.data, graphs.layout);
+        </script>
+        {% else %}
+        <img src="/static/balance_chart.png" alt="Balance Chart">
+        <p>No data available to plot.</p>
+        {% endif %}
+    </div>
+    
+    <div class="mb-4">
+        <h3>Trading Statistics</h3>
+        <ul>
+            <li>Total Trades: <span id="total-trades">{{ total_trades }}</span></li>
+            <li>Winning Trades: <span id="winning-trades">{{ winning_trades }}</span></li>
+            <li>Losing Trades: <span id="losing-trades">{{ losing_trades }}</span></li>
+            <li>Win Rate: <span id="win-rate">{{ win_rate }}%</span></li>
+            <li>Total Profit/Loss: <span id="total-profit">{{ total_profit }}</span></li>
+        </ul>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Datetime</th>
+                <th>Symbol</th>
+                <th>Type</th>
+                <th>Side</th>
+                <th>Price</th>
+                <th>Amount</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for order in orders %}
+            <tr>
+                <td>{{ order['id'] }}</td>
+                <td>{{ order['datetime'] }}</td>
+                <td>{{ order['symbol'] }}</td>
+                <td>{{ order['type'] }}</td>
+                <td>{{ order['side'] }}</td>
+                <td>{{ order['price'] }}</td>
+                <td>{{ order['amount'] }}</td>
+                <td>{{ order['cost'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script>
+        var socket = io();
+        socket.on('update', function (msg) {
+            console.log(msg);
+            alert('Socket.IO connection established: ' + msg.data);
+        });
+
+        socket.on('new_order', function (order) {
+            var table = document.querySelector('tbody');
+            var row = table.insertRow();
+            row.insertCell(0).innerHTML = order['id'];
+            row.insertCell(1).innerHTML = order['datetime'];
+            row.insertCell(2).innerHTML = order['symbol'];
+            row.insertCell(3).innerHTML = order['type'];
+            row.insertCell(4).innerHTML = order['side'];
+            row.insertCell(5).innerHTML = order['price'];
+            row.insertCell(6).innerHTML = order['amount'];
+            row.insertCell(7).innerHTML = order['cost'];
+        });
+
+        socket.on('update_balance', function (data) {
+            document.getElementById('current-balance').innerText = data.current_balance;
+            var graphs = JSON.parse(data.graphJSON);
+            Plotly.newPlot('balance-graph', graphs.data, graphs.layout);
+
+            document.getElementById('total-trades').innerText = data.total_trades;
+            document.getElementById('winning-trades').innerText = data.winning_trades;
+            document.getElementById('losing-trades').innerText = data.losing_trades;
+            document.getElementById('win-rate').innerText = data.win_rate + '%';
+            document.getElementById('total-profit').innerText = data.total_profit;
+        });
+    </script>
+</body>
+</html>
